@@ -31,6 +31,8 @@ var (
 )
 
 func main() {
+	flag.Parse()
+
 	keyFile, err := ioutil.ReadFile(*privateKey)
 	if err != nil {
 		log.Fatal(err)
