@@ -1,0 +1,5 @@
+*.exe
+cmd/generator/generator
+cmd/generator/_test_data
+cmd/parser/parser
+cmd/parser/_test_data
